@@ -7,7 +7,7 @@ public class MoveCam : MonoBehaviour
     
     void Start()
     {
-        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, -4);
+        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, +4);
         
     }
 

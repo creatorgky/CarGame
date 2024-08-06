@@ -20,7 +20,7 @@ public class MoveCar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, -4);
+        GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, +4);
 
         if ((Input.GetKeyDown (moveL))&& ((laneNum>1)&& (ControlLocked == "n"))
  )
