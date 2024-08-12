@@ -23,6 +23,6 @@ public class MoveCarBetter : MonoBehaviour
             float xPos = (Input.mousePosition.x - halfScreen) / halfScreen;
             float finalXpos = Mathf.Clamp(xPos * limitValue, -limitValue, limitValue);
 
-            playerTransform.localPosition = new Vector3(finalXpos, 1, 24);    
+            playerTransform.localPosition = new Vector3(finalXpos, 0, 0);    
         }
 }   
