@@ -5,27 +5,9 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public float turnSpeed = 90f;
+    public float speed = 5f;
+    public Rigidbody rb;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.GetComponent<Obstacle>() != null)
-        {
-            Destroy(gameObject);
-            return;
-                
-        }
-
-        if (other.gameObject.name != "Car")
-        {
-            return;
-        }
-
-
-        if (other.gameObject.name == "Car")
-        {
-            Destroy(gameObject);
-        }
-    }
     // Start is called before the first frame update
     void Start()
     {
@@ -37,4 +19,22 @@ public class Coin : MonoBehaviour
     {
         transform.Rotate(0,0, turnSpeed * Time.deltaTime);
     }
+
+    private void FixedUpdate()
+    {
+        Vector3 forwardMove = transform.forward * speed * Time.fixedDeltaTime;
+        rb.MovePosition(rb.position + forwardMove);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+     {
+
+        if (collision.gameObject.name == "Car")
+        {
+            CarManager.numberOfCoins += 1;
+            Debug.Log("Coins:" + CarManager.numberOfCoins);
+            Destroy(gameObject);
+        }
+    }
 }
+ 

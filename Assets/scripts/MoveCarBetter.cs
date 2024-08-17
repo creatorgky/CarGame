@@ -6,16 +6,23 @@ public class MoveCarBetter : MonoBehaviour
 {
     [SerializeField] private Transform playerTransform;
     [SerializeField] private float limitValue;
+    
+
+    private void Start()
+    {
+
+    }
 
     private void Update()
     {
         if (Input.GetMouseButton(0))
         {
             {
-                MovePlayer();
+                MovePlayer();              
+              
             }
-
         }
+      
     }
         private void MovePlayer()
         {
@@ -23,6 +30,7 @@ public class MoveCarBetter : MonoBehaviour
             float xPos = (Input.mousePosition.x - halfScreen) / halfScreen;
             float finalXpos = Mathf.Clamp(xPos * limitValue, -limitValue, limitValue);
 
-            playerTransform.localPosition = new Vector3(finalXpos, 0, 0);    
+            playerTransform.localPosition = new Vector3(finalXpos, 0, 0);
+
         }
 }   
