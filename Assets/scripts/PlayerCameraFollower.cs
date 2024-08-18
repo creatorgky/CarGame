@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class PlayerCameraFollower : MonoBehaviour
 {
     public Transform target;
     public float smoothTime = 0.3f;
