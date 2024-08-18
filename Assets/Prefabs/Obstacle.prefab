@@ -98,6 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 989d826b27f131245ad07c050b6ed28d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  rb: {fileID: 8657681783437182569}
   carHealth: {fileID: 0}
   damage: 50
 --- !u!54 &8657681783437182569

@@ -20,7 +20,7 @@ public class BetterRoadFollower : MonoBehaviour
     {
         if (speed < maxSpeed)
         {
-            speed += 0.2f * Time.deltaTime;
+            speed += 0.3f * Time.deltaTime;
         }
     }
 }
