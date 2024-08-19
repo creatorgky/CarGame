@@ -7,6 +7,10 @@ public class Coin : MonoBehaviour
     public float turnSpeed = 90f;
     public float speed = 5f;
     public Rigidbody rb;
+    public GameObject coinPrefab;
+    public GameObject whellPrefab;
+    public GameObject bucketPrefab;
+    public GameObject wrenchPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -27,13 +31,45 @@ public class Coin : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision)
-     {
-
-        if (collision.gameObject.name == "Car")
+    {
+        if (coinPrefab)
         {
-            CarManager.numberOfCoins += 1;
-            Debug.Log("Coins:" + CarManager.numberOfCoins);
-            Destroy(gameObject);
+            if (collision.gameObject.name == "Car")
+            {
+                CarManager.numberOfCoins += 1;
+                Debug.Log("Coins:" + CarManager.numberOfCoins);
+                Destroy(gameObject);
+            }
+        }
+
+        if (whellPrefab)
+        {
+            if (collision.gameObject.name == "Car")
+            {
+                CarManager.numberOfWhells += 1;
+                Debug.Log("Whells:" + CarManager.numberOfWhells);
+                Destroy(gameObject);
+            }
+        }
+
+        if (wrenchPrefab)
+        {
+            if (collision.gameObject.name == "Car")
+            {
+                CarManager.numberOfWrench += 1;
+                Debug.Log("Wrenchs:" + CarManager.numberOfWrench);
+                Destroy(gameObject);
+            }
+        }
+
+        if (bucketPrefab)
+        {
+            if (collision.gameObject.name == "Car")
+            {
+                CarManager.numberOfBucket += 1;
+                Debug.Log("Buckets:" + CarManager.numberOfBucket);
+                Destroy(gameObject);
+            }
         }
     }
 }

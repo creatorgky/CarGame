@@ -71,7 +71,7 @@ PrefabInstance:
       addedObject: {fileID: 2156675727903836656}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f7305e434efd064c9868e64f031f4a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -7219159551762207573}
+      addedObject: {fileID: 7395401104985838471}
   m_SourcePrefab: {fileID: 100100000, guid: 7f7305e434efd064c9868e64f031f4a7, type: 3}
 --- !u!1 &6802447506477772605 stripped
 GameObject:
@@ -149,7 +149,7 @@ CapsuleCollider:
   m_Height: 0.81692386
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0.40846205, z: 0.035806432}
---- !u!114 &-7219159551762207573
+--- !u!114 &7395401104985838471
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,9 +158,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6802447506477772605}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c25ec7123c1dc0d4da4db8157790e94b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a0996961dff68f478d2909a753eb689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   turnSpeed: 0
   speed: 5
   rb: {fileID: 6212714771328386262}
+  coinPrefab: {fileID: 0}
+  whellPrefab: {fileID: 0}
+  bucketPrefab: {fileID: 6802447506477772605}
+  wrenchPrefab: {fileID: 0}
