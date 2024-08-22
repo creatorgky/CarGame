@@ -26,6 +26,7 @@ public class Obstacle : MonoBehaviour
         if (collision.gameObject.name == "Car")
         {
             carHealth.TakeDamage(damage);
+            HealtBar.health -= (damage);
         }
     }
 
