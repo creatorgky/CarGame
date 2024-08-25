@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class GasolineTimer : MonoBehaviour
 {
-    float time_remaining;
-    public float max_time = 5f;
+    public static float time_remaining;
+    public static float max_time = 50f;
     public Image fuelbar;
 
     // Start is called before the first frame update

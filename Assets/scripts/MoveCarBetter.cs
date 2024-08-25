@@ -6,11 +6,12 @@ public class MoveCarBetter : MonoBehaviour
 {
     [SerializeField] private Transform playerTransform;
     [SerializeField] private float limitValue;
+    Animator anim;
     
 
     private void Start()
     {
-
+        anim = GetComponent<Animator>();    
     }
 
     private void Update()
@@ -18,8 +19,9 @@ public class MoveCarBetter : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             {
-                MovePlayer();              
-              
+                MovePlayer();
+                anim.SetBool("IsCarGoesRight", true);
+
             }
         }
       

@@ -37,7 +37,6 @@ public class Coin : MonoBehaviour
             if (collision.gameObject.name == "Car")
             {
                 CarManager.numberOfCoins += 1;
-                Debug.Log("Coins:" + CarManager.numberOfCoins);
                 Destroy(gameObject);
             }
         }
@@ -47,7 +46,6 @@ public class Coin : MonoBehaviour
             if (collision.gameObject.name == "Car")
             {
                 CarManager.numberOfWhells += 1;
-                Debug.Log("Whells:" + CarManager.numberOfWhells);
                 Destroy(gameObject);
             }
         }
@@ -57,7 +55,6 @@ public class Coin : MonoBehaviour
             if (collision.gameObject.name == "Car")
             {
                 CarManager.numberOfWrench += 1;
-                Debug.Log("Wrenchs:" + CarManager.numberOfWrench);
                 Destroy(gameObject);
             }
         }
@@ -67,7 +64,6 @@ public class Coin : MonoBehaviour
             if (collision.gameObject.name == "Car")
             {
                 CarManager.numberOfBucket += 1;
-                Debug.Log("Buckets:" + CarManager.numberOfBucket);
                 Destroy(gameObject);
             }
         }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarHealth1 : MonoBehaviour
 {
-    public int health;
+    [SerializeField] public static int health;
     public int maxHealth = 100;
 
     // Start is called before the first frame update

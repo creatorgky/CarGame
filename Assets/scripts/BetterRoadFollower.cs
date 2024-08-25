@@ -7,6 +7,7 @@ public class BetterRoadFollower : MonoBehaviour
     public float speed = 5f;
     public Rigidbody rb;
     public float maxSpeed;
+    
 
     // Start is called before the first frame update
     private void FixedUpdate()
@@ -20,7 +21,7 @@ public class BetterRoadFollower : MonoBehaviour
     {
         if (speed < maxSpeed)
         {
-            speed += 0.3f * Time.deltaTime;
+            speed += 0.2f * Time.deltaTime;
         }
     }
 }

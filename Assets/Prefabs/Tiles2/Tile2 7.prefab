@@ -374,6 +374,7 @@ Transform:
   m_Children:
   - {fileID: 9021133050594947497}
   - {fileID: 23183792147421247}
+  - {fileID: 2002392550186154689}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6645550071859399652
@@ -389,6 +390,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 1029364888977643913, guid: abe5c6ea57d5f3541935cff46d3f7f6b, type: 3}
+--- !u!1001 &815517213789158272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1070131283101697921}
+    m_Modifications:
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.0084534
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 43.430664
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458226144286948008, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+      propertyPath: m_Name
+      value: Jerrycan_Rusted
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+--- !u!4 &2002392550186154689 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1195883819847483713, guid: 9a62bf40ab50370439265826b17f2390, type: 3}
+  m_PrefabInstance: {fileID: 815517213789158272}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7465246663573484162
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CarManager : MonoBehaviour
 {
@@ -8,6 +9,11 @@ public class CarManager : MonoBehaviour
     public static int numberOfWhells;
     public static int numberOfBucket;
     public static int numberOfWrench;
+
+    public Text coinsText;
+    public Text whellsText;
+    public Text bucketText;
+    public Text wrenchText;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +27,9 @@ public class CarManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        coinsText.text = "Coins:" + numberOfCoins;
+        whellsText.text = "Whells:" + numberOfWhells;
+        bucketText.text = "Buckets:" + numberOfBucket;
+        wrenchText.text = "Wrenchs:" + numberOfWrench;
     }
 }
