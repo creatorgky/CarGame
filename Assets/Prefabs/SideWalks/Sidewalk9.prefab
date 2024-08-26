@@ -611,7 +611,7 @@ GameObject:
   - component: {fileID: 1898791252953487771}
   - component: {fileID: 1891338156625725125}
   - component: {fileID: 1881039002496888903}
-  - component: {fileID: 1922311391777089913}
+  - component: {fileID: 1200589580914432999}
   m_Layer: 0
   m_Name: Car_repair
   m_TagString: Untagged
@@ -698,8 +698,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1922311391777089913
-MeshCollider:
+--- !u!65 &1200589580914432999
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -716,10 +716,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: e23e0fc23782369459f4fb6719065dbf, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.22092536, y: 0.3023922, z: 0.10274656}
+  m_Center: {x: 0.10027406, y: -0.13940026, z: 0.041373283}
 --- !u!1 &1895308806756835989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,7 +1493,6 @@ GameObject:
   - component: {fileID: 2788536813293613693}
   - component: {fileID: 2797875730807410957}
   - component: {fileID: 2805771344183371617}
-  - component: {fileID: 2758173028756789739}
   m_Layer: 0
   m_Name: Parking_checkOut
   m_TagString: Untagged
@@ -1573,28 +1571,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2758173028756789739
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2784946399421848635}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: f35bc84842ec9c0439f44801e52354f0, type: 3}
 --- !u!1 &3365091930848357459
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,7 +3142,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -3880,6 +3856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5391431712309896515}
+  - component: {fileID: 1521582150986283819}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -3910,6 +3887,33 @@ Transform:
   - {fileID: 2786834334389816705}
   m_Father: {fileID: 2474252244726343763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1521582150986283819
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6128376230892356330}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &6136460317828081503
 GameObject:
   m_ObjectHideFlags: 0
@@ -4127,7 +4131,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -4630,8 +4634,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.00059662515, y: 0.019350389, z: 0.0010590664}
-  m_Center: {x: -0.0001399144, y: -0.007947587, z: -5.647091e-17}
+  m_Size: {x: 0.15471366, y: 0.028002148, z: 0.01300649}
+  m_Center: {x: 0.06637567, y: -0.0036217396, z: -0.0059738164}
 --- !u!1 &7635212451719190048
 GameObject:
   m_ObjectHideFlags: 0
@@ -4848,7 +4852,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30

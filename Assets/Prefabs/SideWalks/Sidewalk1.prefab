@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7941318848526598930}
+  - component: {fileID: 6848264618800455690}
   m_Layer: 0
   m_Name: vz02_ purple
   m_TagString: Untagged
@@ -36,6 +37,27 @@ Transform:
   - {fileID: 7384823825103524803}
   m_Father: {fileID: 7728053313627363520}
   m_LocalEulerAnglesHint: {x: 0, y: -90.177, z: 0}
+--- !u!65 &6848264618800455690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610330322640474850}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2716459, y: 1, z: 3.8361115}
+  m_Center: {x: 0.013574153, y: 0, z: -0.043474797}
 --- !u!1 &1182670255610934074
 GameObject:
   m_ObjectHideFlags: 0
@@ -111,7 +133,6 @@ GameObject:
   - component: {fileID: 1401352177989781091}
   - component: {fileID: 1372035955379588001}
   - component: {fileID: 1380703204244830335}
-  - component: {fileID: 1412227405439287405}
   m_Layer: 0
   m_Name: tree_holder
   m_TagString: Untagged
@@ -185,28 +206,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1412227405439287405
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404834610285826329}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 864b37ef74679d041a9878401216a6b0, type: 3}
 --- !u!1 &1633390406608030046
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,8 +234,8 @@ Transform:
   m_GameObject: {fileID: 1633390406608030046}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.45, y: 0.1, z: 0}
-  m_LocalScale: {x: 228.3, y: 100, z: 100}
+  m_LocalPosition: {x: 7.5126, y: 0.1, z: 0}
+  m_LocalScale: {x: 434.56906, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7548876056649892119}
@@ -308,7 +307,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -567,7 +566,6 @@ GameObject:
   - component: {fileID: 2135863456587138764}
   - component: {fileID: 2151864584831929102}
   - component: {fileID: 2161648799939950800}
-  - component: {fileID: 2112112672594428098}
   m_Layer: 0
   m_Name: tree_holder
   m_TagString: Untagged
@@ -641,28 +639,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2112112672594428098
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137098469801890230}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 864b37ef74679d041a9878401216a6b0, type: 3}
 --- !u!1 &2138934944908602078
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +888,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
@@ -1011,7 +987,7 @@ GameObject:
   - component: {fileID: 4789324431735543446}
   - component: {fileID: 2919134084289331172}
   - component: {fileID: 4289907784562456423}
-  - component: {fileID: 935733721500846456}
+  - component: {fileID: 4608411903489951639}
   m_Layer: 0
   m_Name: Traffic_light_2
   m_TagString: Untagged
@@ -1090,8 +1066,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &935733721500846456
-MeshCollider:
+--- !u!65 &4608411903489951639
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1108,10 +1084,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 766782d248257f440b2b859de95dad6c, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.010000006, y: 0.0034913393, z: 0.036103655}
+  m_Center: {x: 0.000000938188, y: 0.00029364933, z: 0.018051809}
 --- !u!1 &3647297411714741963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,7 +1219,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -1392,8 +1367,8 @@ Transform:
   m_GameObject: {fileID: 4310992518555929175}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 5.24, y: 0.1, z: 0}
-  m_LocalScale: {x: 231.85751, y: 127.29, z: 100}
+  m_LocalPosition: {x: 6.6419, y: 0.1, z: 0}
+  m_LocalScale: {x: 372.06174, y: 127.29, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6916964106833338417}
@@ -1465,7 +1440,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -1654,7 +1629,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -1904,7 +1879,6 @@ GameObject:
   - component: {fileID: 5677242542030508265}
   - component: {fileID: 5670444300069838123}
   - component: {fileID: 5661651853041626869}
-  - component: {fileID: 5630125385581336295}
   m_Layer: 0
   m_Name: tree_holder
   m_TagString: Untagged
@@ -1978,28 +1952,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5630125385581336295
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5676221907007506323}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 864b37ef74679d041a9878401216a6b0, type: 3}
 --- !u!1 &5743162669635073740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,6 +2693,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7728053313627363520}
+  - component: {fileID: 489466125951062255}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2786,6 +2739,33 @@ Transform:
   - {fileID: 6277547236844633581}
   m_Father: {fileID: 3696271416360657362}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &489466125951062255
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106180927539541504}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &8233024242129324359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2887,7 +2867,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -3089,8 +3069,8 @@ Transform:
   m_GameObject: {fileID: 8960159997809939228}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 9.36, y: 0, z: 0}
-  m_LocalScale: {x: 413.38, y: 200, z: 100}
+  m_LocalPosition: {x: 11.9087, y: 0, z: 0}
+  m_LocalScale: {x: 668.27014, y: 200, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5665928329724827196}
@@ -3162,7 +3142,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -3195,8 +3175,8 @@ Transform:
   m_GameObject: {fileID: 9032188055661585006}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -9.59, y: 0, z: 0}
-  m_LocalScale: {x: 413.56, y: 200, z: 100}
+  m_LocalPosition: {x: -12.3871, y: 0, z: 0}
+  m_LocalScale: {x: 693.2507, y: 200, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 612381564708079455}
@@ -3268,7 +3248,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -3406,7 +3386,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -5181,7 +5161,7 @@ GameObject:
   - component: {fileID: 9174440364679234524}
   - component: {fileID: 9162589342194044770}
   - component: {fileID: 9154808678605294124}
-  - component: {fileID: 9203259791017089568}
+  - component: {fileID: 1526509399363943659}
   m_Layer: 0
   m_Name: StreetSellerStand
   m_TagString: Untagged
@@ -5295,8 +5275,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9203259791017089568
-MeshCollider:
+--- !u!65 &1526509399363943659
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5313,10 +5293,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 73f4b5d89013f594d90e403b7f63f114, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.024039121, y: 0.025259113, z: 0.029012349}
+  m_Center: {x: -0.0007014847, y: -0.003826938, z: 0.013262215}
 --- !u!1 &9176281932586752028
 GameObject:
   m_ObjectHideFlags: 0
